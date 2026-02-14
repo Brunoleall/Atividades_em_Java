@@ -9,6 +9,9 @@ public class ConsultarLivros {
         String livro = ler.nextLine();
         System.out.println(livro);
 
+        String ajusteNomeLivroParaUlR = livro.replace(" ", "+");
+        System.out.println(ajusteNomeLivroParaUlR);
+
 
     }
 }
