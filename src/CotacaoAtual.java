@@ -8,6 +8,8 @@ public class CotacaoAtual {
         System.out.println("Qual Criptomoeda Deseja consultar?");
         String criptomoeda = ler.nextLine();
 
+        String url = "https://api.coingecko.com/api/v3/simple/price?ids=" + criptomoeda + "&vs_currencies=brl";
+        System.out.println(url);
 
 
     }
