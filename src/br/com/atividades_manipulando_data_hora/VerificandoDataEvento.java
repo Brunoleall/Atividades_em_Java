@@ -7,7 +7,7 @@ public class VerificandoDataEvento {
     public static void main(String[] args) {
 
         LocalDate dataDoEvento = LocalDate.of(2026,3,10);
-        LocalDate atualData = LocalDate.of(2026, 3, 15);
+        LocalDate atualData = LocalDate.of(2026, 3, 15  );
 
         DateTimeFormatter formatoData = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         String dataEventoFormatada = dataDoEvento.format(formatoData);
